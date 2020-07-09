@@ -1,0 +1,54 @@
+footer {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+.footer__line {
+    position: relative;
+    border-right: 2px solid whitesmoke;
+    height: 8rem;
+    top: 2rem;
+}
+
+.footer__navigation-links li{
+    margin-top: 0.5rem;
+}
+
+.footer__social-links li {
+    margin: 0 3px;
+}
+
+.footer__social-links button {
+    font-size: 10px;
+    color: whitesmoke;
+    background-color: #6800FF;
+    height: 25px;
+    border: 1px solid whitesmoke;
+}
+
+.social-svg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.social-svg-mask {
+    fill: gray;
+}
+
+.social-svg:hover > .social-svg-mask {
+    fill: #803EFF;
+}
+
+.footer__derechos-reservados {
+    font-size: 8px;
+}

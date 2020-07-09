@@ -1,11 +1,34 @@
+@font-face {
+    font-family: "Gotham";
+    src: url('/fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url('/fonts/GothamBold.ttf');
+    font-weight: bold;
+}
+
+* {
+    font-family: "Gotham";
+    line-height: 12px;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-footer {
-    background-color: black;
-    color: white;
+.bold {
+    font-weight: bold;
 }
-  
+
+.d-block {
+    display: block;
+}
