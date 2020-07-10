@@ -93,19 +93,26 @@ h2.registro__texto {
     background-color: whitesmoke;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
 .carousel-control-next-icon:after
 {
-  content: '>';
-  font-size: 55px;
-  font-weight: bold;
-  color: #6800FF;
+    background-image: none;
+    content: '>';
+    font-size: 55px;
+    font-weight: bold;
+    color: #6800FF;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  font-weight: bold;
-  color: #6800FF;
+    background-image: none;
+    content: '<';
+    font-size: 55px;
+    font-weight: bold;
+    color: #6800FF;
 }
 
 @media screen and (min-width: 450px) {
@@ -155,7 +162,7 @@ h2.registro__texto {
 
     .registro {
         position: relative;
-        background-image: url('/svg/Coma.svg'), url('/svg/Corchete.svg');
+        background-image: url('../svg/Coma.svg'), url('../svg/Corchete.svg');
         background-repeat: no-repeat, no-repeat;
         background-size: 180px, 500px 900px;
         background-position: top left, top right;
