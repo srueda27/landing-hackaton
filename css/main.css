@@ -13,13 +13,10 @@
     font-family: "Gotham";
 }
 
-html {
-    font-size: 12px;
-}
-
 body {
     min-width: 350px;
     margin: 0 auto;
+    font-size: 12px;
 }
 
 img {
