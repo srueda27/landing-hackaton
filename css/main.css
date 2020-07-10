@@ -11,11 +11,10 @@
 
 * {
     font-family: "Gotham";
-    line-height: 12px;
 }
 
 body {
-    max-width: 1280px;
+    min-width: 350px;
     margin: 0 auto;
 }
 
@@ -31,4 +30,121 @@ img {
 
 .d-block {
     display: block;
+}
+
+.registro {
+    background-image: url('/svg/Coma.svg'), url('/svg/Corchete.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 150px, 200px 900px;
+    background-position: top left, top right;
+    background-color: #6800FF;
+    box-shadow: inset 50px 10px 80px #6800FF;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.coma-logo {
+    display: none;
+}
+
+.registro .logos {
+    position: relative;
+    top: -25px;
+}
+
+.registro .año {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 180px;
+    height: 180px;
+}
+
+.registro h1 {
+    font-size: x-large;
+}
+
+.registro h2 {
+    font-size: 45px;
+    -webkit-text-stroke: 1px whitesmoke;
+    color: #6800FF;
+}
+
+.registro p {
+    text-align: justify;
+    margin-right: 30%;
+}
+
+.registro a {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #6800FF;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 450px) {
+    .registro .año {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1280px;
+    }
+
+    .registro {
+        position: relative;
+        background-image: url('/svg/Coma.svg'), url('/svg/Corchete.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-size: 180px, 500px 900px;
+        background-position: top left, top right;
+        box-shadow: inset 80px 10px 150px #6800FF;
+    }
+
+    .coma-logo {
+        display: block;
+        position: absolute;
+        width: 250px;
+        height: 600px;
+        left: 15%;
+        background-image: url('/svg/Coma.svg');
+        background-repeat: no-repeat;
+        box-shadow: inset 80px 10px 150px #6800FF;
+    }
+    
+    .registro .logos {
+        top: 30px;
+    }
+    
+    .registro .año {
+        top: 10%;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .registro h1 {
+        font-size: x-large;
+    }
+    
+    .registro h2 {
+        font-size: 45px;
+    }
+    
+    .registro p {
+        margin-right: 30%;
+    }
+
+    .on-top {
+        position: relative;
+        z-index: 100;
+    }
+
+    .hacktech-logo {
+        height: 350px;
+    }
 }
