@@ -32,12 +32,15 @@ img {
     display: block;
 }
 
+main {
+    background-color: #6800FF;
+}
+
 .registro {
     background-image: url('/svg/Coma.svg'), url('/svg/Corchete.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 150px, 200px 900px;
     background-position: top left, top right;
-    background-color: #6800FF;
     box-shadow: inset 50px 10px 80px #6800FF;
     color: whitesmoke;
     font-size: 12px;
@@ -64,18 +67,12 @@ img {
     font-size: x-large;
 }
 
-.registro h2 {
-    font-size: 45px;
-    -webkit-text-stroke: 1px whitesmoke;
-    color: #6800FF;
-}
-
 .registro p {
     text-align: justify;
     margin-right: 30%;
 }
 
-.registro a {
+.registro__texto a {
     border: 1px solid whitesmoke;
     border-radius: 10px;
     background-color: #6800FF;
@@ -85,10 +82,65 @@ img {
     padding-bottom: 10px;
 }
 
+h2.registro__texto {
+    font-size: 45px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px whitesmoke;
+    color: #6800FF;
+}
+
+.carousel {
+    background-color: whitesmoke;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  font-weight: bold;
+  color: #6800FF;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  font-weight: bold;
+  color: #6800FF;
+}
+
 @media screen and (min-width: 450px) {
     .registro .año {
         width: 200px;
         height: 200px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h2.registro__texto {
+        font-size: 80px;
+    }
+
+    .on-top {
+        position: relative;
+        z-index: 100;
+    }
+
+    .coma-logo {
+        display: block;
+        position: absolute;
+        width: 30%;
+        height: 600px;
+        left: 20%;
+        background-image: url('/svg/Coma.svg');
+        background-repeat: no-repeat;
+        box-shadow: inset 80px 20px 100px #6800FF;
+    }
+
+    .carousel-inner {
+        display: flex;
+        margin: 0 auto;
+        justify-content: start;
+        width: 50%;
     }
 }
 
@@ -107,14 +159,8 @@ img {
     }
 
     .coma-logo {
-        display: block;
-        position: absolute;
-        width: 250px;
-        height: 600px;
+        width: 20%;
         left: 15%;
-        background-image: url('/svg/Coma.svg');
-        background-repeat: no-repeat;
-        box-shadow: inset 80px 20px 100px #6800FF;
     }
     
     .registro .logos {
@@ -131,24 +177,24 @@ img {
         font-size: x-large;
     }
     
-    .registro h2 {
-        font-size: 45px;
-    }
-    
     .registro p {
         margin-right: 30%;
     }
-
-    .on-top {
-        position: relative;
-        z-index: 100;
-    }
-
+    
     .hacktech-logo {
         height: 350px;
     }
-
+    
     .registro__texto {
         margin-left: 10%;
     }
+    
+    h2.registro__texto {
+        font-size: 90px;
+    }
+
+    .registro__texto a:hover {
+        background-color: #803EFF;
+    }
+
 }

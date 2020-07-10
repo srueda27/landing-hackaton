@@ -18358,7 +18358,7 @@ table {
   }
 
   .container-md-2-1 {
-    display: grid;
+    display: grid !important;
     height: 100%;
     
     grid-template-columns: repeat(2, 1fr);
@@ -18634,7 +18634,7 @@ table {
   }
 
   .container-md-3-1 {
-    display: grid;
+    display: grid !important;
     height: 100%;
     
     grid-template-columns: repeat(3, 1fr);
