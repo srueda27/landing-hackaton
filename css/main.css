@@ -37,7 +37,7 @@ main {
 }
 
 .registro {
-    background-image: url('/svg/Coma.svg'), url('/svg/Corchete.svg');
+    background-image: url('../svg/Coma.svg'), url('../svg/Corchete.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 150px, 200px 900px;
     background-position: top left, top right;
@@ -120,6 +120,10 @@ h2.registro__texto {
         font-size: 80px;
     }
 
+    .registro {
+        background-size: 150px, 300px 1000px;
+    }
+
     .on-top {
         position: relative;
         z-index: 100;
@@ -131,7 +135,7 @@ h2.registro__texto {
         width: 30%;
         height: 600px;
         left: 20%;
-        background-image: url('/svg/Coma.svg');
+        background-image: url('../svg/Coma.svg');
         background-repeat: no-repeat;
         box-shadow: inset 80px 20px 100px #6800FF;
     }
