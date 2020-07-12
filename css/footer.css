@@ -5,12 +5,12 @@ footer {
     line-height: 12px;
 }
 
-.footer__navigation-links a {
+.footer__navigation-links .links {
     color: whitesmoke;
     text-decoration: underline;
 }
 
-.footer__navigation-links a:hover {
+.footer__navigation-links .links:hover {
     color: grey;
     cursor: pointer;
 }
@@ -28,12 +28,21 @@ footer {
 }
 
 .terminos-condiciones {
+    height: 20px;
+    width: 120px;
+    line-height: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: whitesmoke;
     border: 1px solid whitesmoke;
+    border-radius: 5px;
     background-color: #6800FF;
+}
+
+.terminos-condiciones:hover {
     color: whitesmoke;
     text-decoration: none;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    background-color: #803EFF;
 }
 
 .social-svg {
@@ -72,7 +81,9 @@ footer {
     }
 
     .terminos-condiciones {
-        line-height: 24px;
+        height: 30px;
+        width: 150px;
+        line-height: 28px;
     }
 
     .social-svg {
@@ -82,5 +93,30 @@ footer {
 
     .footer__derechos-reservados {
         font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    footer {
+        font-size: 15px;
+    }
+
+    .footer__navigation-links > div {
+        padding-top: 3rem;
+    }
+
+    .social-svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .terminos-condiciones {
+        height: 40px;
+        width: 220px;
+        line-height: 38px;
+    }
+
+    .footer__derechos-reservados {
+        font-size: 12px;
     }
 }

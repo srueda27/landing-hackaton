@@ -65,29 +65,29 @@
             </div>
             <div class="d-flex jcse area-md-2-1 container-md-2-1">
                 <div class="d-flex flex-col jcse footer__navigation-links">
-                    <div class="d-flex flex-col pl-md-5 ml-md-5">
+                    <div class="d-flex flex-col pl-lg-5 ml-lg-5">
                         <span class="bold mt-1 mb-md-2 my-lg-5">Navegación</span>
                         <div class="pt-1 container-2-1 gg-1">
                             <ul class="">
                                 <li>
-                                    <a href="#CaliHacktech">Inicio</a>
+                                    <span id="inicio-span" class="links">Inicio</span>
                                 </li>
                                 <li>
-                                    <a href="#Inscripcion">Inscripción</a>
+                                    <span id="inscripcion-span" class="links">Inscripción</span>
                                 </li>
                                 <li>
-                                    <a href="#Patrocinadores">Patrocinadores</a>
+                                    <span id="patrocinadores-span" class="links">Patrocinadores</span>
                                 </li>
                             </ul>
                             <ul class="">
                                 <li>
-                                    <a href="#Retos2020">Retos 2020</a>
+                                    <span id="retos-span" class="links">Retos 2020</span>
                                 </li>
                                 <li>
-                                    <a href="">Jurados</a>
+                                    <span id="" class="links">Jurados</span>
                                 </li>
                                 <li>
-                                    <a href="">Miembros</a>
+                                    <span id="" class="links">Miembros</span>
                                 </li>
                             </ul>
                         </div>
@@ -205,7 +205,31 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="" class="bor-rad-5 bold px-2 d-block terminos-condiciones">Términos y condiciones</a>
+                        <button type="button" class="terminos-condiciones" data-toggle="modal" data-target="#staticBackdrop">
+                            Términos y condiciones
+                        </button>
+                        <!-- <a href="" class="bor-rad-5 bold px-2 d-block terminos-condiciones">Términos y condiciones</a> -->
+                        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -222,6 +246,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="./scripts/main.js" type="text/javascript"></script>
 </body>
 
 </html>
