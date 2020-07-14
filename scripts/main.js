@@ -14,6 +14,6 @@ $('#patrocinadores-span').click(function() {
 });
 
 $('#retos-span').click(function() {
-    var elmnt = document.getElementById("Retos2020");
+    var elmnt = document.getElementById("Retos");
     elmnt.scrollIntoView(false);
 });
