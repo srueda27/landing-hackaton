@@ -319,7 +319,7 @@ h2.registro__texto {
 
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1800px) {
     body {
         max-width: 2000px;
         font-size: 20px;
