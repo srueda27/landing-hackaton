@@ -29,7 +29,7 @@ footer {
 
 .terminos-condiciones {
     min-height: 24px;
-    width: 140px;
+    line-height: 24px;
 }
 
 .terminos-condiciones:hover {
@@ -74,9 +74,7 @@ footer {
     }
 
     .terminos-condiciones {
-        height: 30px;
-        width: 150px;
-        line-height: 28px;
+        font-size: 11px;
     }
 
     .social-svg {
@@ -108,9 +106,9 @@ footer {
     }
 
     .terminos-condiciones {
-        height: 40px;
-        width: 220px;
-        line-height: 38px;
+        min-height: 40px;
+        line-height: 40px;
+        font-size: 15px;
     }
 
     .footer__derechos-reservados {
