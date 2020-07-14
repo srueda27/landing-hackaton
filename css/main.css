@@ -46,7 +46,6 @@ main {
 }
 
 /* #region Registro y Patrocinadores */
-
 .registro {
     background-image: url('../svg/Coma.svg'), url('../svg/Corchete.svg');
     background-repeat: no-repeat, no-repeat;
@@ -127,6 +126,7 @@ h2.registro__texto {
 
 /* #endregion Registro y Patrocinadores */
 
+/* #region retos */
 .retos__banner {
     height: 120px;
     position: relative;
@@ -134,7 +134,7 @@ h2.registro__texto {
     background-repeat: no-repeat;
     background-size: 150px 200px;
     background-position: -40px -40px;
-    color: #EE5BA0;
+    color: #D95D97;
 }
 
 .retos__banner-logos {
@@ -155,7 +155,7 @@ h2.registro__texto {
     left: 55px;
 }
 
-.retos .coma-logo {
+.retos__banner .coma-logo {
     height: 120px;
     width: 80px;
     top: 0;
@@ -166,11 +166,19 @@ h2.registro__texto {
 .retos__contenido {
     background-color: whitesmoke;
     color: black;
+    padding: 35px 25px 25px;
 }
 
 .retos__contenido h3 {
+    font-size: 20px;
     color: #005AA9;
 }
+
+.retos__contenido p {
+    margin: 25px 0 5px;
+    text-align: justify;
+}
+/* #endregion retos */
 
 @media screen and (min-width: 450px) {
     .registro .año {
@@ -181,7 +189,6 @@ h2.registro__texto {
 
 @media screen and (min-width: 576px) {
     /* #region Registro y Patrocinadores */
-    
     h2.registro__texto {
         font-size: 75px;
     }
@@ -211,8 +218,8 @@ h2.registro__texto {
         margin: 0 auto;
         justify-content: start;
         width: 50%;
+        height: 250px;
     }
-
     /* #endregion Registro y Patrocinadores */
 }
 
@@ -253,6 +260,7 @@ h2.registro__texto {
     }
 
     /* #endregion Registro y Patrocinadores */
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -265,6 +273,37 @@ h2.registro__texto {
         font-size: 95px;
     }
     /* #endregion Registro y Patrocinadores */
+
+    /* #region retos */
+    .retos__banner {
+        height: 180px;
+        background-size: 230px 230px;
+        background-position: -50px -25px;
+    }
+    
+    .retos__banner-logos h2 {
+        font-size: 60px;
+        left: 115px;
+    }
+    
+    .retos__banner-logos > div {
+        height: 210px;
+        width: 210px;
+        left: 105px;
+        top: 5px;
+    }
+    
+    .retos .coma-logo {
+        height: 180px;
+        width: 100px;
+        right: 2px;
+    }
+    
+    .retos__contenido {
+        padding: 45px 75px 45px 35px;
+    }
+    /* #endregion retos */
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -278,5 +317,44 @@ h2.registro__texto {
     h2.registro__texto {
         font-size: 150px;
     }
+    
+    .carousel-inner {
+        height: 350px;
+    }
     /* #endregion Registro y Patrocinadores */
+    
+    /* #region retos */
+    .retos__banner {
+        height: 210px;
+        background-size: 250px 250px;
+        background-position: -50px -20px;
+    }
+    
+    .retos__banner-logos h2 {
+        font-size: 70px;
+        left: 125px;
+        top: 10px;
+    }
+    
+    .retos__banner-logos > div {
+        height: 250px;
+        width: 250px;
+        left: 115px;
+        top: 5px;
+    }
+    
+    .retos .coma-logo {
+        height: 210px;
+        width: 120px;
+    }
+
+    .retos__contenido {
+        padding: 45px 35px 45px;
+    }
+    
+    .retos__contenido h3 {
+        font-size: 25px
+    }
+    /* #endregion retos */
+
 }
