@@ -45,6 +45,18 @@ main {
     box-shadow: inset 80px 20px 100px #6800FF;
 }
 
+.button-link {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #6800FF;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* #region Registro y Patrocinadores */
 .registro {
     background-image: url('../svg/Coma.svg'), url('../svg/Corchete.svg');
@@ -82,14 +94,15 @@ main {
 }
 
 .registro__texto a {
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    background-color: #6800FF;
+    min-height: 36px;
+}
+
+.registro__texto a:hover {
     color: whitesmoke;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #803EFF;
 }
+
 
 h2.registro__texto {
     font-size: 40px;
