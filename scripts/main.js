@@ -13,7 +13,7 @@ $('#patrocinadores-span').click(function() {
     elmnt.scrollIntoView(true);
 });
 
-$('#test').click(function() {
-    var elmnt = document.getElementById("Inscripcion");
+$('#retos-span').click(function() {
+    var elmnt = document.getElementById("Retos2020");
     elmnt.scrollIntoView(false);
 });

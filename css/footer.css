@@ -105,6 +105,10 @@ footer {
         padding-top: 3rem;
     }
 
+    .footer__navigation-links li {
+        margin-top: 1rem;
+    }
+
     .social-svg {
         width: 35px;
         height: 35px;
