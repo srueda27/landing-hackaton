@@ -359,10 +359,6 @@ h2.registro__texto {
 
 @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */ 
-    .button-link {
-        padding-top: 10px;
-    }
-
     .registro__texto a {
         padding-top: 10px;
     }
