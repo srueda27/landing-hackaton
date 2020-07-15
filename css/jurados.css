@@ -1,4 +1,5 @@
-#Jurados {
+#Jurados,
+#Mentores {
     position: relative;
     background-image: url(../svg/PuntoYComa.svg);
     background-repeat: no-repeat;
@@ -6,12 +7,29 @@
     background-position: -30px -25px;
 }
 
+.toggle-btn {
+    width: 20px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.toggle-btn:hover {
+    background-color: #803EFF;
+    cursor: pointer;
+}
+
+.inactive {
+    display: none !important;
+}
+
 .miembros-texto {
     color: white;
     text-align: justify;
 }
 
-.miembros-texto > div {
+.miembros-texto .img-div {
     position: relative;
     width: 230px;
     height: 120px;

@@ -98,10 +98,10 @@ main {
     margin-right: 30%;
 }
 
-.registro__texto a {
+.registro__texto span {
     min-height: 36px;
-    max-height: 36px;
-    line-height: 36px;
+    display: inline-flex;
+    align-items: center;    
 }
 
 .registro__texto a:hover {
