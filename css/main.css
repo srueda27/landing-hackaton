@@ -98,8 +98,9 @@ main {
     margin-right: 30%;
 }
 
-.registro__texto span {
+.registro__texto a {
     padding: 5px 0;  
+    height: 30px;
 }
 
 .registro__texto a:hover {
@@ -118,28 +119,6 @@ h2.registro__texto {
 
 .carousel {
     background-color: white;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-    background-image: none;
-    content: '>';
-    font-size: 55px;
-    font-weight: bold;
-    color: #6800FF;
-}
-
-.carousel-control-prev-icon:after {
-    background-image: none;
-    content: '<';
-    font-size: 55px;
-    font-weight: bold;
-    color: #6800FF;
 }
 
 /* #endregion Registro y Patrocinadores */
@@ -326,7 +305,7 @@ h2.registro__texto {
 @media screen and (min-width: 1800px) {
     body {
         max-width: 2000px;
-        font-size: 20px;
+        font-size: 16px;
     }
     
     /* #region Registro y Patrocinadores */
