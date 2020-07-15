@@ -125,6 +125,6 @@ footer {
 @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */ 
     .terminos-condiciones {
-        padding-top: 10px;
+        padding-top: 4px;
     }
 }
