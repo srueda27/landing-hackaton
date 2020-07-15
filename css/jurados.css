@@ -1,0 +1,48 @@
+#Jurados {
+    position: relative;
+    background-image: url(../svg/PuntoYComa.svg);
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+    background-position: -30px -25px;
+}
+
+.miembros-texto {
+    color: white;
+    text-align: justify;
+}
+
+.miembros-texto > div {
+    position: relative;
+    width: 230px;
+    height: 120px;
+    top: -30px;
+    left: -55px;
+}
+
+.miembros-texto > p {
+    position: relative;
+    top: -50px;
+}
+
+.chorchete-180 {
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-image: url(../svg/Corchete.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 576px) {
+    .chorchete-180 {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .fotos > div {
+        max-height: 160px;
+    }
+}

@@ -15,7 +15,7 @@
 
 body {
     min-width: 350px;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     font-size: 12px;
 }
@@ -36,6 +36,11 @@ img {
 
 main {
     background-color: #6800FF;
+}
+
+.on-top {
+    position: relative;
+    z-index: 100;
 }
 
 .coma-logo {
@@ -212,11 +217,6 @@ h2.registro__texto {
         background-size: 150px, 300px 1000px;
     }
 
-    .on-top {
-        position: relative;
-        z-index: 100;
-    }
-
     .registro .coma-logo {
         display: block;
         position: absolute;
@@ -228,13 +228,6 @@ h2.registro__texto {
         box-shadow: inset 80px 20px 100px #6800FF;
     }
 
-    .carousel-inner {
-        display: flex;
-        margin: 0 auto;
-        justify-content: start;
-        width: 50%;
-        height: 250px;
-    }
     /* #endregion Registro y Patrocinadores */
 }
 
@@ -269,7 +262,18 @@ h2.registro__texto {
     .registro__texto a:hover {
         background-color: #803EFF;
     }
-
+    
+    .carousel-inner {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        width: 63%;
+        height: 250px;
+    }
+    
+    .carousel-img {
+        width: unset;
+    }
     /* #endregion Registro y Patrocinadores */
 
 }
@@ -282,6 +286,10 @@ h2.registro__texto {
 
     h2.registro__texto {
         font-size: 95px;
+    }
+
+    .carousel-inner {
+        width: 49%;
     }
     /* #endregion Registro y Patrocinadores */
 

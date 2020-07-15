@@ -15,5 +15,5 @@ $('#patrocinadores-span').click(function() {
 
 $('#retos-span').click(function() {
     var elmnt = document.getElementById("Retos");
-    elmnt.scrollIntoView(false);
+    elmnt.scrollIntoView(true);
 });
