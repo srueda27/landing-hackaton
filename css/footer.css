@@ -121,3 +121,13 @@ footer {
         font-size: 12px;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    .terminos-condiciones {
+        min-height: 22px;
+        max-height: 22px;
+        line-height: 22px;
+        padding: 1rem 0 5px;
+    }
+}

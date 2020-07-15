@@ -60,8 +60,9 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .fotos > div {
-        max-height: 160px;
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    body {
+        font-size: 50px;
     }
 }
