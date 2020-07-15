@@ -362,4 +362,10 @@ h2.registro__texto {
     .registro__texto a {
         padding-top: 10px;
     }
+
+    @media screen and (min-width: 768px) {
+        .registro__texto a {
+            padding-top: 15px;
+        }
+    }
 }
