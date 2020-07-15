@@ -15,7 +15,7 @@
 
 body {
     min-width: 350px;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
     font-size: 12px;
 }
@@ -54,6 +54,7 @@ main {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* #region Registro y Patrocinadores */
@@ -94,6 +95,7 @@ main {
 
 .registro__texto a {
     min-height: 36px;
+    max-height: 36px;
     line-height: 36px;
 }
 
@@ -112,7 +114,7 @@ h2.registro__texto {
 }
 
 .carousel {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .carousel-control-next-icon,
