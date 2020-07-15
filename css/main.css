@@ -362,4 +362,8 @@ h2.registro__texto {
     .button-link {
         padding-top: 10px;
     }
+
+    .registro__texto a {
+        padding-top: 10px;
+    }
 }
