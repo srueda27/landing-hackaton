@@ -99,9 +99,7 @@ main {
 }
 
 .registro__texto span {
-    min-height: 36px;
-    display: inline-flex;
-    align-items: center;    
+    padding: 5px 0;  
 }
 
 .registro__texto a:hover {

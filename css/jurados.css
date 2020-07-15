@@ -13,6 +13,7 @@
     display: block;
     text-align: center;
     border: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .toggle-btn:hover {
