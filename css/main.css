@@ -34,6 +34,10 @@ img {
     display: block;
 }
 
+.d-none {
+    display: none;
+}
+
 main {
     background-color: #6800FF;
 }
@@ -93,9 +97,10 @@ main {
     font-size: x-large;
 }
 
-.registro p {
+.registro__texto {
     text-align: justify;
-    margin-right: 30%;
+    margin-right: 15%;
+    line-height: 1.8;
 }
 
 .registro__texto a {
@@ -109,6 +114,9 @@ main {
     background-color: #803EFF;
 }
 
+.registro__texto ul {
+    list-style-type: square;
+}
 
 h2.registro__texto {
     font-size: 40px;
@@ -163,7 +171,7 @@ h2.registro__texto {
 .retos__contenido {
     background-color: whitesmoke;
     color: black;
-    padding: 35px 25px 25px;
+    padding: 35px 25px 15px;
 }
 
 .retos__contenido h3 {
@@ -205,6 +213,10 @@ h2.registro__texto {
         box-shadow: inset 80px 20px 100px #6800FF;
     }
 
+    .registro__texto {
+        margin-right: 25%;
+    }
+
     /* #endregion Registro y Patrocinadores */
 }
 
@@ -222,10 +234,6 @@ h2.registro__texto {
         top: 10%;
         width: 450px;
         height: 450px;
-    }
-    
-    .registro p {
-        margin-right: 30%;
     }
     
     .hacktech-logo {
@@ -296,7 +304,7 @@ h2.registro__texto {
     }
     
     .retos__contenido {
-        padding: 45px 75px 45px 35px;
+        padding: 45px 75px 25px 35px;
     }
     /* #endregion retos */
 
@@ -348,7 +356,7 @@ h2.registro__texto {
     }
 
     .retos__contenido {
-        padding: 45px 35px 45px;
+        padding: 45px 35px 25px;
     }
     
     .retos__contenido h3 {
